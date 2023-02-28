@@ -12,7 +12,7 @@ const createTable = () => {
         <tr>
             <th>#ID</th>
             <th>Balance</th>
-            <th>FistName</th>
+            <th>FirstName</th>
             <th>LastName</th>
             <th>Active</th>
             <th>Actions</th>

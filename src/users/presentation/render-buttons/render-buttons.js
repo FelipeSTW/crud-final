@@ -2,6 +2,10 @@ import usersStore from '../../store/users-store';
 import { renderTable } from '../render-table/render-table';
 import './render-buttons.css';
 
+
+
+
+//generar los botones de la aplicacion 
 /**
  * 
  * @param {HTMLDivElement} element 
@@ -19,6 +23,9 @@ export const renderButtons = ( element ) => {
     currentPageLabel.innerText = usersStore.getCurrentPage();
 
     element.append( prevButton, currentPageLabel, nextButton );
+
+
+    //funcionalidad de los botones 
 
 
     nextButton.addEventListener('click', async() => {
